@@ -1,0 +1,16 @@
+/* Write your CSS here */
+
+.todo_items {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  border-radius: 5px;
+  border: 1px solid #ff0b37;
+  background-color: transparent;
+  padding: 5px;
+  color: #ff0b37;
+}

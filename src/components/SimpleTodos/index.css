@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffc2a0;
+  text-align: center;
+}
+.heading {
+  color: #ff8542;
+  margin-top: 50px;
+}
+
+.todo_container {
+  background-color: #ffffff;
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+.todo_items_container {
+  text-align: left;
+  list-style: none;
+  padding: 40px;
+}
+@media screen and (min-width: 768px) {
+  .todo_container {
+    width: 400px;
+  }
+}
